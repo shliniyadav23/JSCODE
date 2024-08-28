@@ -2,8 +2,8 @@
 
 
 
-const input=require("readline-sync");
-let n=input.questionInt("enter the size of array : ");
+ const input=require("readline-sync");
+ let n=input.questionInt("enter the size of array : ");
 
 let arr=[];
 let i=0;
@@ -26,3 +26,4 @@ while(j<n){
     j++;
 }
 console.log(gauri);
+
